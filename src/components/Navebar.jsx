@@ -1,18 +1,41 @@
-
+import { MdFavoriteBorder } from "react-icons/md";
+import { NavLink } from "react-router-dom";
+import { useState } from "react";
 
 const Navebar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div>
-      <div className="navbar bg-base-100 shadow-sm">
-        <div className="flex-1">
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+    <div className="container mx-auto">
+      <div className="navbar bg-base-100 flex justify-between items-center py-4">
+        {/* Logo */}
+        <div>
+          <a className="text-2xl font-bold">Tech Gient</a>
         </div>
-        <div className="flex-none">
+
+        {/* Mobile Menu Button */}
+        <div className="md:hidden">
+          <button className="text-2xl" onClick={() => setIsOpen(!isOpen)}>
+            ☰
+          </button>
+        </div>
+
+        {/* Nav Links */}
+        <nav className="hidden md:flex gap-6 font-semibold text-gray-700">
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/shop">Shop</NavLink>
+          <NavLink to="/dashbord">Dashboard</NavLink>
+          <NavLink to="/statistics">Statistics</NavLink>
+        </nav>
+
+        {/* Right-side Cart/Favorite */}
+        <div className="flex gap-4 items-center">
+          {/* Cart */}
           <div className="dropdown dropdown-end">
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost btn-circle"
+              className="btn btn-ghost btn-circle border border-gray-400"
             >
               <div className="indicator">
                 <svg
@@ -22,20 +45,21 @@ const Navebar = () => {
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                 >
-                  {" "}
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
                     d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-                  />{" "}
+                  />
                 </svg>
-                <span className="badge badge-sm indicator-item">8</span>
+                <span className="badge badge-sm indicator-item -mt-2 border border-gray-200">
+                  8
+                </span>
               </div>
             </div>
             <div
               tabIndex={0}
-              className="card card-compact dropdown-content bg-base-100 z-1 mt-3 w-52 shadow"
+              className="dropdown-content bg-base-100 z-10 mt-3 w-52 shadow card card-compact"
             >
               <div className="card-body">
                 <span className="text-lg font-bold">8 Items</span>
@@ -48,39 +72,48 @@ const Navebar = () => {
               </div>
             </div>
           </div>
+
+          {/* Favorite */}
           <div className="dropdown dropdown-end">
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost btn-circle avatar"
+              className="btn btn-ghost btn-circle border border-gray-400"
             >
-              <div className="w-10 rounded-full">
-                <img
-                  alt="Tailwind CSS Navbar component"
-                  src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
-                />
+              <div className="indicator">
+                <MdFavoriteBorder className="h-5 w-5" />
+                <span className="badge badge-sm indicator-item -mt-2 border border-gray-200">
+                  8
+                </span>
               </div>
             </div>
-            <ul
+            <div
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="dropdown-content bg-base-100 z-10 mt-3 w-52 shadow card card-compact"
             >
-              <li>
-                <a className="justify-between">
-                  Profile
-                  <span className="badge">New</span>
-                </a>
-              </li>
-              <li>
-                <a>Settings</a>
-              </li>
-              <li>
-                <a>Logout</a>
-              </li>
-            </ul>
+              <div className="card-body">
+                <span className="text-lg font-bold">8 Items</span>
+                <span className="text-info">Subtotal: $999</span>
+                <div className="card-actions">
+                  <button className="btn btn-primary btn-block">
+                    View favorites
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+      {/* Mobile Nav Dropdown */}
+      {isOpen && (
+        <div className="md:hidden mt-2 space-y-2 bg-gray-100 px-4 py-2 rounded-md font-semibold text-gray-800">
+          <Link to="/">Home</Link>
+          <Link to="/shop">Shop</Link>
+          <Link to="/dashboard">Dashboard</Link>
+          <Link to="/statistics">Statistics</Link>
+        </div>
+      )}
     </div>
   );
 };
