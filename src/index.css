@@ -7,3 +7,8 @@
 @theme {
     --font-displayFont: "Sora", sans-serif;
 }
+
+
+.active {
+    @apply font-bold border-b-2 
+}
