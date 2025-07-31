@@ -1,10 +1,11 @@
 import { useContext, useEffect } from "react";
-import { AppContext } from "../context/AppContext";
+import { AppContext } from "../context/Provider";
+
 
 
 
 const UniqueCategories = () => {
-  const [allData,categories,setAllData,setCategories] = useContext(AppContext) 
+  const {allData,categories,setAllData,setCategories} = useContext(AppContext) 
 
   useEffect(() => {
     const fetchData = async () => {
