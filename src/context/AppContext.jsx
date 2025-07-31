@@ -1,26 +1,42 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { AppContext } from "./Provider";
 
-
-
 export const AppProvider = ({ children }) => {
+  const [allData, setAllData] = useState([]);
+  const [categories, setCategories] = useState([]);
 
-  const [allData, setAllData] = useState([]);        
-  const [categories, setCategories] = useState([]); 
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/prodectData.json");
+        const data = await response.json();
 
-  console.log(allData,categories);
-  
- 
-    const value = {
-      allData,
-      setAllData,
-      categories,
-      setCategories,
-    }
- 
-  return (
-    <AppContext.Provider value={value}>
-      {children}
-    </AppContext.Provider>
-  );
+        setAllData(data);
+
+        const categorySet = new Set();
+        data.forEach((item) => {
+          if (item.category) {
+            categorySet.add(item.category);
+          }
+        });
+
+        setCategories([...categorySet]);
+      } catch (error) {
+        console.error("Failed to fetch data:", error);
+      }
+    };
+
+    fetchData();
+  }, [setAllData, setCategories]);
+
+  console.log(allData, categories);
+
+  const value = {
+    allData,
+    setAllData,
+    categories,
+    setCategories,
+  };
+
+  return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
 };
