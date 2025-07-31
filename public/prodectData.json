@@ -1,852 +1,852 @@
 [
-    {
-        "product_id": "P001",
-        "product_title": "Apple iPhone 15 Pro Max",
-        "product_image": "https://example.com/iphone15promax.jpg",
-        "category": "Smartphones",
-        "price": 1299,
-        "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
-        "specification": [
-            "6.7-inch Super Retina XDR display",
-            "A17 Bionic chip",
-            "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
-            "LiDAR Scanner",
-            "Up to 2TB storage"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "P002",
-        "product_title": "Samsung Galaxy S23 Ultra",
-        "product_image": "https://example.com/s23ultra.jpg",
-        "category": "Smartphones",
-        "price": 1199,
-        "description": "Powerful Android flagship with S Pen support.",
-        "specification": [
-            "6.8-inch Dynamic AMOLED 2X",
-            "Snapdragon 8 Gen 2",
-            "200MP main camera",
-            "5000mAh battery",
-            "12GB RAM"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
-    {
-        "product_id": "P003",
-        "product_title": "Sony WH-1000XM5",
-        "product_image": "https://example.com/sonyheadphones.jpg",
-        "category": "Audio",
-        "price": 399,
-        "description": "Industry-leading noise canceling headphones.",
-        "specification": [
-            "30-hour battery life",
-            "Bluetooth 5.2",
-            "Touch controls",
-            "Built-in Alexa",
-            "Lightweight design"
-        ],
-        "availability": true,
-        "rating": 4.9
-    },
-    {
-        "product_id": "P004",
-        "product_title": "MacBook Pro 16-inch",
-        "product_image": "https://example.com/macbookpro.jpg",
-        "category": "Laptops",
-        "price": 2499,
-        "description": "Professional laptop with M2 Max chip.",
-        "specification": [
-            "M2 Max chip",
-            "16GB unified memory",
-            "1TB SSD",
-            "Liquid Retina XDR display",
-            "Up to 21 hours battery"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "P005",
-        "product_title": "Amazon Echo Dot (5th Gen)",
-        "product_image": "https://example.com/echodot.jpg",
-        "category": "Smart Home",
-        "price": 49,
-        "description": "Compact smart speaker with Alexa.",
-        "specification": [
-            "Improved audio quality",
-            "Temperature sensor",
-            "Bluetooth connectivity",
-            "Customizable clock display",
-            "Voice control"
-        ],
-        "availability": true,
-        "rating": 4.5
-    },
-    {
-        "product_id": "P006",
-        "product_title": "Nintendo Switch OLED",
-        "product_image": "https://example.com/switcholed.jpg",
-        "category": "Gaming",
-        "price": 349,
-        "description": "Handheld console with vibrant OLED screen.",
-        "specification": [
-            "7-inch OLED screen",
-            "64GB internal storage",
-            "Enhanced audio",
-            "Wide adjustable stand",
-            "Nintendo Joy-Con controllers"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
-    {
-        "product_id": "P007",
-        "product_title": "Dyson V15 Detect",
-        "product_image": "https://example.com/dysonv15.jpg",
-        "category": "Home Appliances",
-        "price": 699,
-        "description": "Cordless vacuum with laser dust detection.",
-        "specification": [
-            "60-minute runtime",
-            "Laser dust detection",
-            "HEPA filtration",
-            "5 cleaning modes",
-            "LCD screen"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "P008",
-        "product_title": "Bose QuietComfort Earbuds II",
-        "product_image": "https://example.com/boseearbuds.jpg",
-        "category": "Audio",
-        "price": 279,
-        "description": "Premium wireless earbuds with noise canceling.",
-        "specification": [
-            "Active noise canceling",
-            "6-hour battery life",
-            "Bluetooth 5.3",
-            "IPX4 water resistant",
-            "Customizable sound"
-        ],
-        "availability": true,
-        "rating": 4.6
-    },
-    {
-        "product_id": "P009",
-        "product_title": "Canon EOS R5",
-        "product_image": "https://example.com/canonr5.jpg",
-        "category": "Cameras",
-        "price": 3899,
-        "description": "Professional mirrorless camera with 8K video.",
-        "specification": [
-            "45MP full-frame sensor",
-            "8K 30p video",
-            "In-body stabilization",
-            "Dual pixel autofocus",
-            "CFexpress card slot"
-        ],
-        "availability": true,
-        "rating": 4.9
-    },
-    {
-        "product_id": "P010",
-        "product_title": "Apple Watch Series 8",
-        "product_image": "https://example.com/applewatch8.jpg",
-        "category": "Wearables",
-        "price": 399,
-        "description": "Advanced smartwatch with health monitoring.",
-        "specification": [
-            "Always-on Retina display",
-            "Blood oxygen sensor",
-            "ECG app",
-            "Crash detection",
-            "Water resistant 50m"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
-    {
-        "product_id": "P011",
-        "product_title": "Samsung 85 QN90B Neo QLED TV",
-        "product_image": "https://example.com/samsungtv.jpg",
-        "category": "Televisions",
-        "price": 3999,
-        "description": "Premium 4K smart TV with Quantum HDR.",
-        "specification": [
-            "Neo Quantum Processor",
-            "Mini-LED backlight",
-            "144Hz refresh rate",
-            "Object Tracking Sound",
-            "6.2.2 channel audio"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "P012",
-        "product_title": "PlayStation 5",
-        "product_image": "https://example.com/ps5.jpg",
-        "category": "Gaming",
-        "price": 499,
-        "description": "Next-gen gaming console with ultra-fast SSD.",
-        "specification": [
-            "Custom AMD Zen 2 CPU",
-            "16GB GDDR6 memory",
-            "825GB SSD",
-            "4K UHD Blu-ray",
-            "3D Audio"
-        ],
-        "availability": true,
-        "rating": 4.9
-    },
-    {
-        "product_id": "P013",
-        "product_title": "Google Pixel 7 Pro",
-        "product_image": "https://example.com/pixel7pro.jpg",
-        "category": "Smartphones",
-        "price": 899,
-        "description": "Google's flagship with advanced camera AI.",
-        "specification": [
-            "6.7-inch QHD+ display",
-            "Google Tensor G2",
-            "50MP main camera",
-            "5000mAh battery",
-            "Android 13"
-        ],
-        "availability": true,
-        "rating": 4.6
-    },
-    {
-        "product_id": "P014",
-        "product_title": "iPad Pro 12.9-inch",
-        "product_image": "https://example.com/ipadpro.jpg",
-        "category": "Tablets",
-        "price": 1099,
-        "description": "Professional tablet with M2 chip.",
-        "specification": [
-            "M2 chip",
-            "Liquid Retina XDR display",
-            "Thunderbolt port",
-            "Face ID",
-            "Up to 2TB storage"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "P015",
-        "product_title": "Xbox Series X",
-        "product_image": "https://example.com/xboxseriesx.jpg",
-        "category": "Gaming",
-        "price": 499,
-        "description": "Most powerful Xbox with 4K gaming.",
-        "specification": [
-            "12 TFLOPS GPU",
-            "1TB custom SSD",
-            "4K at 120FPS",
-            "Backward compatibility",
-            "Quick Resume"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "P016",
-        "product_title": "Fitbit Charge 5",
-        "product_image": "https://example.com/fitbitcharge5.jpg",
-        "category": "Wearables",
-        "price": 179,
-        "description": "Advanced fitness tracker with stress management.",
-        "specification": [
-            "Color touchscreen",
-            "Built-in GPS",
-            "ECG app",
-            "7-day battery",
-            "Water resistant 50m"
-        ],
-        "availability": true,
-        "rating": 4.4
-    },
-    {
-        "product_id": "P017",
-        "product_title": "LG C2 65 OLED TV",
-        "product_image": "https://example.com/lgc2.jpg",
-        "category": "Televisions",
-        "price": 1999,
-        "description": "Brilliant OLED TV with AI processing.",
-        "specification": [
-            "OLED evo panel",
-            "α9 Gen 5 AI processor",
-            "120Hz refresh rate",
-            "Dolby Vision IQ",
-            "4 HDMI 2.1 ports"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "P018",
-        "product_title": "Garmin Fenix 7",
-        "product_image": "https://example.com/garminfenix7.jpg",
-        "category": "Wearables",
-        "price": 699,
-        "description": "Premium multisport GPS watch.",
-        "specification": [
-            "Solar charging",
-            "32GB storage",
-            "TopoActive maps",
-            "Pulse Ox sensor",
-            "Up to 18-day battery"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
-    {
-        "product_id": "P019",
-        "product_title": "DJI Mavic 3",
-        "product_image": "https://example.com/djimavic3.jpg",
-        "category": "Drones",
-        "price": 2199,
-        "description": "Professional drone with Hasselblad camera.",
-        "specification": [
-            "4/3 CMOS sensor",
-            "46-minute flight time",
-            "15km transmission",
-            "5.1K video",
-            "Omnidirectional obstacle sensing"
-        ],
-        "availability": true,
-        "rating": 4.9
-    },
-    {
-        "product_id": "P020",
-        "product_title": "Kindle Paperwhite",
-        "product_image": "https://example.com/kindlepaperwhite.jpg",
-        "category": "E-Readers",
-        "price": 139,
-        "description": "Waterproof e-reader with adjustable light.",
-        "specification": [
-            "6.8-inch display",
-            "300 ppi",
-            "USB-C charging",
-            "Weeks of battery",
-            "IPX8 waterproof"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
-    {
-        "product_id": "P021",
-        "product_title": "GoPro HERO11 Black",
-        "product_image": "https://example.com/gopro11.jpg",
-        "category": "Cameras",
-        "price": 499,
-        "description": "Action camera with 5.3K video.",
-        "specification": [
-            "27MP photos",
-            "HyperSmooth 5.0",
-            "10-bit color",
-            "Waterproof to 33ft",
-            "Front display"
-        ],
-        "availability": true,
-        "rating": 4.6
-    },
-    {
-        "product_id": "P022",
-        "product_title": "Microsoft Surface Laptop 5",
-        "product_image": "https://example.com/surfacelaptop5.jpg",
-        "category": "Laptops",
-        "price": 1299,
-        "description": "Sleek Windows laptop with touchscreen.",
-        "specification": [
-            "13.5-inch PixelSense",
-            "12th Gen Intel Core",
-            "Up to 19 hours battery",
-            "Thunderbolt 4",
-            "Aluminum chassis"
-        ],
-        "availability": true,
-        "rating": 4.5
-    },
-    {
-        "product_id": "P023",
-        "product_title": "Sonos Beam",
-        "product_image": "https://example.com/sonosbeam.jpg",
-        "category": "Audio",
-        "price": 449,
-        "description": "Compact smart soundbar with Dolby Atmos.",
-        "specification": [
-            "Dolby Atmos",
-            "Voice control",
-            "Apple AirPlay 2",
-            "HDMI eARC",
-            "WiFi connectivity"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
-    {
-        "product_id": "P024",
-        "product_title": "HP LaserJet Pro MFP",
-        "product_image": "https://example.com/hpprinter.jpg",
-        "category": "Printers",
-        "price": 299,
-        "description": "All-in-one laser printer for office.",
-        "specification": [
-            "Print/scan/copy/fax",
-            "Duplex printing",
-            "35ppm speed",
-            "250-sheet tray",
-            "WiFi Direct"
-        ],
-        "availability": true,
-        "rating": 4.4
-    },
-    {
-        "product_id": "P025",
-        "product_title": "Instant Pot Duo Plus",
-        "product_image": "https://example.com/instantpot.jpg",
-        "category": "Kitchen",
-        "price": 129,
-        "description": "9-in-1 multi-cooker with 15 programs.",
-        "specification": [
-            "6-quart capacity",
-            "Pressure cooker",
-            "Slow cooker",
-            "Yogurt maker",
-            "Sterilizer"
-        ],
-        "availability": true,
-        "rating": 4.6
-    },
-    {
-        "product_id": "P026",
-        "product_title": "Logitech MX Master 3S",
-        "product_image": "https://example.com/logitechmouse.jpg",
-        "category": "Computer Accessories",
-        "price": 99,
-        "description": "Advanced wireless mouse for productivity.",
-        "specification": [
-            "8K DPI sensor",
-            "MagSpeed scrolling",
-            "7 buttons",
-            "70-day battery",
-            "Multi-device pairing"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "P027",
-        "product_title": "Razer Blade 15",
-        "product_image": "https://example.com/razerblade.jpg",
-        "category": "Laptops",
-        "price": 2499,
-        "description": "Gaming laptop with high refresh display.",
-        "specification": [
-            "12th Gen Intel Core i9",
-            "NVIDIA RTX 3080 Ti",
-            "360Hz FHD display",
-            "1TB SSD",
-            "Per-key RGB"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
-    {
-        "product_id": "P028",
-        "product_title": "Nespresso Vertuo Plus",
-        "product_image": "https://example.com/nespresso.jpg",
-        "category": "Kitchen",
-        "price": 179,
-        "description": "Premium coffee machine with centrifusion.",
-        "specification": [
-            "5 cup sizes",
-            "54oz water tank",
-            "25-second heat-up",
-            "Automatic ejection",
-            "Energy saving mode"
-        ],
-        "availability": true,
-        "rating": 4.6
-    },
-    {
-        "product_id": "P029",
-        "product_title": "Anker PowerCore 26800",
-        "product_image": "https://example.com/ankerpowerbank.jpg",
-        "category": "Accessories",
-        "price": 59,
-        "description": "High-capacity portable charger.",
-        "specification": [
-            "26800mAh capacity",
-            "3 USB ports",
-            "PowerIQ technology",
-            "18W fast charging",
-            "LED indicators"
-        ],
-        "availability": true,
-        "rating": 4.5
-    },
-    {
-        "product_id": "P030",
-        "product_title": "Sony A7 IV",
-        "product_image": "https://example.com/sonya7iv.jpg",
-        "category": "Cameras",
-        "price": 2499,
-        "description": "Full-frame mirrorless hybrid camera.",
-        "specification": [
-            "33MP sensor",
-            "4K 60p video",
-            "10fps continuous",
-            "Real-time tracking",
-            "5-axis stabilization"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "P031",
-        "product_title": "Bose SoundLink Revolve+",
-        "product_image": "https://example.com/bosespeaker.jpg",
-        "category": "Audio",
-        "price": 329,
-        "description": "360-degree portable Bluetooth speaker.",
-        "specification": [
-            "16-hour battery",
-            "IP55 water resistant",
-            "Built-in mic",
-            "Voice prompts",
-            "3.5mm aux input"
-        ],
-        "availability": true,
-        "rating": 4.6
-    },
-    {
-        "product_id": "P032",
-        "product_title": "Samsung Galaxy Tab S8 Ultra",
-        "product_image": "https://example.com/galaxytabs8.jpg",
-        "category": "Tablets",
-        "price": 1099,
-        "description": "Massive Android tablet with S Pen.",
-        "specification": [
-            "14.6-inch AMOLED",
-            "Snapdragon 8 Gen 1",
-            "11200mAh battery",
-            "Under-display camera",
-            "45W fast charging"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
-    {
-        "product_id": "P033",
-        "product_title": "Oculus Quest 2",
-        "product_image": "https://example.com/oculusquest2.jpg",
-        "category": "VR",
-        "price": 399,
-        "description": "All-in-one VR gaming headset.",
-        "specification": [
-            "128GB storage",
-            "1832x1920 per eye",
-            "90Hz refresh",
-            "Touch controllers",
-            "Wireless PC VR"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
-    {
-        "product_id": "P034",
-        "product_title": "Withings Body+",
-        "product_image": "https://example.com/withingsscale.jpg",
-        "category": "Health",
-        "price": 99,
-        "description": "Smart scale with body composition.",
-        "specification": [
-            "Measures fat/muscle/bone mass",
-            "WiFi/BLE sync",
-            "Unlimited users",
-            "Pregnancy mode",
-            "18-month battery"
-        ],
-        "availability": true,
-        "rating": 4.4
-    },
-    {
-        "product_id": "P035",
-        "product_title": "Tile Pro",
-        "product_image": "https://example.com/tilepro.jpg",
-        "category": "Accessories",
-        "price": 34,
-        "description": "Bluetooth tracker with replaceable battery.",
-        "specification": [
-            "400ft range",
-            "1-year battery",
-            "Water resistant",
-            "Ring feature",
-            "Community find"
-        ],
-        "availability": true,
-        "rating": 4.3
-    },
-    {
-        "product_id": "P036",
-        "product_title": "Breville Barista Express",
-        "product_image": "https://example.com/breville.jpg",
-        "category": "Kitchen",
-        "price": 699,
-        "description": "Semi-automatic espresso machine.",
-        "specification": [
-            "Integrated grinder",
-            "15-bar pressure",
-            "PID temperature control",
-            "54mm portafilter",
-            "Steam wand"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "P037",
-        "product_title": "JBL Flip 6",
-        "product_image": "https://example.com/jblflip6.jpg",
-        "category": "Audio",
-        "price": 129,
-        "description": "Portable Bluetooth speaker with punchy bass.",
-        "specification": [
-            "12-hour battery",
-            "IP67 waterproof",
-            "PartyBoost pairing",
-            "Dual passive radiators",
-            "USB-C charging"
-        ],
-        "availability": true,
-        "rating": 4.5
-    },
-    {
-        "product_id": "P038",
-        "product_title": "Ring Video Doorbell Pro 2",
-        "product_image": "https://example.com/ringdoorbell.jpg",
-        "category": "Smart Home",
-        "price": 249,
-        "description": "Advanced video doorbell with 3D motion.",
-        "specification": [
-            "1536p HD video",
-            "Color night vision",
-            "Two-way talk",
-            "Works with Alexa",
-            "Hardwired or battery"
-        ],
-        "availability": true,
-        "rating": 4.6
-    },
-    {
-        "product_id": "P039",
-        "product_title": "Ninja Foodi 10-in-1",
-        "product_image": "https://example.com/ninjafoodi.jpg",
-        "category": "Kitchen",
-        "price": 229,
-        "description": "Pressure cooker and air fryer combo.",
-        "specification": [
-            "6.5-quart capacity",
-            "TenderCrisp technology",
-            "Dehydrate function",
-            "Dishwasher safe pot",
-            "30+ included recipes"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
-    {
-        "product_id": "P040",
-        "product_title": "SteelSeries Arctis Pro",
-        "product_image": "https://example.com/steelseries.jpg",
-        "category": "Gaming",
-        "price": 179,
-        "description": "High-fidelity gaming headset with DAC.",
-        "specification": [
-            "Hi-Res certified",
-            "DTS Headphone:X 2.0",
-            "ClearCast mic",
-            "24-hour battery",
-            "Aluminum alloy"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
-    {
-        "product_id": "P041",
-        "product_title": "Fujifilm X-T5",
-        "product_image": "https://example.com/fujifilmxt5.jpg",
-        "category": "Cameras",
-        "price": 1699,
-        "description": "Compact mirrorless with 40MP sensor.",
-        "specification": [
-            "X-Trans CMOS 5 HR",
-            "6.2K video",
-            "7-stop IBIS",
-            "425-point AF",
-            "Dual UHS-II slots"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "P042",
-        "product_title": "Roborock S7 MaxV",
-        "product_image": "https://example.com/roborock.jpg",
-        "category": "Smart Home",
-        "price": 899,
-        "description": "AI-powered robot vacuum and mop.",
-        "specification": [
-            "LiDAR navigation",
-            "5100Pa suction",
-            "VibraRise mopping",
-            "ReactiveAI obstacle avoidance",
-            "200-minute runtime"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "P043",
-        "product_title": "HyperX Cloud Alpha",
-        "product_image": "https://example.com/hyperxheadset.jpg",
-        "category": "Gaming",
-        "price": 99,
-        "description": "Dual-chamber gaming headset.",
-        "specification": [
-            "50mm drivers",
-            "Detachable noise-canceling mic",
-            "Aircraft-grade aluminum",
-            "Memory foam ear cushions",
-            "3.5mm connector"
-        ],
-        "availability": true,
-        "rating": 4.6
-    },
-    {
-        "product_id": "P044",
-        "product_title": "Vitamix 5200",
-        "product_image": "https://example.com/vitamix.jpg",
-        "category": "Kitchen",
-        "price": 449,
-        "description": "Professional-grade blender for home.",
-        "specification": [
-            "2.2HP motor",
-            "64oz container",
-            "Variable speed control",
-            "Self-cleaning",
-            "10-year warranty"
-        ],
-        "availability": true,
-        "rating": 4.9
-    },
-    {
-        "product_id": "P045",
-        "product_title": "YETI Tundra 45",
-        "product_image": "https://example.com/yeticooler.jpg",
-        "category": "Outdoors",
-        "price": 299,
-        "description": "Premium rotomolded cooler.",
-        "specification": [
-            "Bear-resistant",
-            "FatWall insulation",
-            "T-Rex lid latches",
-            "Non-slip feet",
-            "Made in USA"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "P046",
-        "product_title": "Govee LED Strip Lights",
-        "product_image": "https://example.com/goveelights.jpg",
-        "category": "Smart Home",
-        "price": 39,
-        "description": "RGBIC LED strip with app control.",
-        "specification": [
-            "16.4ft length",
-            "64 scenes",
-            "Music sync",
-            "DIY modes",
-            "Works with Alexa"
-        ],
-        "availability": true,
-        "rating": 4.4
-    },
-    {
-        "product_id": "P047",
-        "product_title": "ASUS ROG Swift PG32UQX",
-        "product_image": "https://example.com/asusmonitor.jpg",
-        "category": "Monitors",
-        "price": 2999,
-        "description": "4K HDR gaming monitor with Mini-LED.",
-        "specification": [
-            "32-inch 4K",
-            "144Hz refresh",
-            "G-Sync Ultimate",
-            "1152-zone backlight",
-            "DisplayHDR 1400"
-        ],
-        "availability": true,
-        "rating": 4.8
-    },
-    {
-        "product_id": "P048",
-        "product_title": "Shark Vertex DuoClean",
-        "product_image": "https://example.com/sharkvacuum.jpg",
-        "category": "Home",
-        "price": 349,
-        "description": "Powerful cordless stick vacuum.",
-        "specification": [
-            "60-minute runtime",
-            "DuoClean brushroll",
-            "HEPA filter",
-            "Self-cleaning brushroll",
-            "LED headlights"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
-    {
-        "product_id": "P049",
-        "product_title": "Corsair K100 RGB",
-        "product_image": "https://example.com/corsairkeyboard.jpg",
-        "category": "Gaming",
-        "price": 229,
-        "description": "Mechanical gaming keyboard with OPX switches.",
-        "specification": [
-            "OPX optical-mechanical",
-            "4000Hz polling",
-            "PBT double-shot keycaps",
-            "iCUE control",
-            "Dynamic RGB lighting"
-        ],
-        "availability": true,
-        "rating": 4.7
-    },
-    {
-        "product_id": "P050",
-        "product_title": "Theragun Elite",
-        "product_image": "https://example.com/theragun.jpg",
-        "category": "Health",
-        "price": 399,
-        "description": "Professional-grade percussion massager.",
-        "specification": [
-            "5 speeds up to 40lbs force",
-            "120-minute battery",
-            "OLED screen",
-            "QuietForce technology",
-            "6 attachments"
-        ],
-        "availability": true,
-        "rating": 4.8
-    }
+  {
+    "product_id": "P001",
+    "product_title": "Apple iPhone 15 Pro Max",
+    "product_image": "https://example.com/iphone15promax.jpg",
+    "category": "Smartphones",
+    "price": 1299,
+    "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "Triple-camera system",
+      "LiDAR Scanner",
+      "Up to 2TB storage"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P002",
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://example.com/s23ultra.jpg",
+    "category": "Smartphones",
+    "price": 1199,
+    "description": "Powerful Android flagship with S Pen support.",
+    "specification": [
+      "6.8-inch Dynamic AMOLED 2X",
+      "Snapdragon 8 Gen 2",
+      "200MP main camera",
+      "5000mAh battery",
+      "12GB RAM"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P003",
+    "product_title": "Google Pixel 7 Pro",
+    "product_image": "https://example.com/pixel7pro.jpg",
+    "category": "Smartphones",
+    "price": 899,
+    "description": "Google's flagship with advanced camera AI.",
+    "specification": [
+      "6.7-inch QHD+ display",
+      "Google Tensor G2",
+      "50MP main camera",
+      "5000mAh battery",
+      "Android 13"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P004",
+    "product_title": "OnePlus 11",
+    "product_image": "https://example.com/oneplus11.jpg",
+    "category": "Smartphones",
+    "price": 799,
+    "description": "Flagship killer with fast charging.",
+    "specification": [
+      "6.7-inch AMOLED",
+      "Snapdragon 8 Gen 2",
+      "100W fast charging",
+      "Triple camera",
+      "120Hz refresh"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P005",
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://example.com/sonyheadphones.jpg",
+    "category": "Audio",
+    "price": 399,
+    "description": "Industry-leading noise canceling headphones.",
+    "specification": [
+      "30-hour battery life",
+      "Bluetooth 5.2",
+      "Touch controls",
+      "Built-in Alexa",
+      "Lightweight design"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P006",
+    "product_title": "Bose QuietComfort Earbuds II",
+    "product_image": "https://example.com/boseearbuds.jpg",
+    "category": "Audio",
+    "price": 279,
+    "description": "Premium wireless earbuds with noise canceling.",
+    "specification": [
+      "Active noise canceling",
+      "6-hour battery life",
+      "Bluetooth 5.3",
+      "IPX4 water resistant",
+      "Customizable sound"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P007",
+    "product_title": "Sonos Beam",
+    "product_image": "https://example.com/sonosbeam.jpg",
+    "category": "Audio",
+    "price": 449,
+    "description": "Compact smart soundbar with Dolby Atmos.",
+    "specification": [
+      "Dolby Atmos",
+      "Voice control",
+      "Apple AirPlay 2",
+      "HDMI eARC",
+      "WiFi connectivity"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P008",
+    "product_title": "JBL Flip 6",
+    "product_image": "https://example.com/jblflip6.jpg",
+    "category": "Audio",
+    "price": 129,
+    "description": "Portable Bluetooth speaker with punchy bass.",
+    "specification": [
+      "12-hour battery",
+      "IP67 waterproof",
+      "PartyBoost pairing",
+      "Dual passive radiators",
+      "USB-C charging"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P009",
+    "product_title": "Bose SoundLink Revolve+",
+    "product_image": "https://example.com/bosespeaker.jpg",
+    "category": "Audio",
+    "price": 329,
+    "description": "360-degree portable Bluetooth speaker.",
+    "specification": [
+      "16-hour battery",
+      "IP55 water resistant",
+      "Built-in mic",
+      "Voice prompts",
+      "3.5mm aux input"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P010",
+    "product_title": "MacBook Pro 16-inch",
+    "product_image": "https://example.com/macbookpro.jpg",
+    "category": "Laptops",
+    "price": 2499,
+    "description": "Professional laptop with M2 Max chip.",
+    "specification": [
+      "M2 Max chip",
+      "16GB unified memory",
+      "1TB SSD",
+      "Liquid Retina XDR display",
+      "Up to 21 hours battery"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P011",
+    "product_title": "Microsoft Surface Laptop 5",
+    "product_image": "https://example.com/surfacelaptop5.jpg",
+    "category": "Laptops",
+    "price": 1299,
+    "description": "Sleek Windows laptop with touchscreen.",
+    "specification": [
+      "13.5-inch PixelSense",
+      "12th Gen Intel Core",
+      "Up to 19 hours battery",
+      "Thunderbolt 4",
+      "Aluminum chassis"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P012",
+    "product_title": "Razer Blade 15",
+    "product_image": "https://example.com/razerblade.jpg",
+    "category": "Laptops",
+    "price": 2499,
+    "description": "Gaming laptop with high refresh display.",
+    "specification": [
+      "12th Gen Intel Core i9",
+      "NVIDIA RTX 3080 Ti",
+      "360Hz FHD display",
+      "1TB SSD",
+      "Per-key RGB"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P013",
+    "product_title": "Dell XPS 13",
+    "product_image": "https://example.com/dellxps13.jpg",
+    "category": "Laptops",
+    "price": 999,
+    "description": "Ultra-portable laptop with InfinityEdge display.",
+    "specification": [
+      "13.4-inch FHD+",
+      "Intel Core i7",
+      "16GB RAM",
+      "512GB SSD",
+      "Windows 11"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P014",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://example.com/hpspectre.jpg",
+    "category": "Laptops",
+    "price": 1399,
+    "description": "Convertible laptop with touch display.",
+    "specification": [
+      "14-inch OLED",
+      "Intel Evo",
+      "16GB RAM",
+      "1TB SSD",
+      "360-degree hinge"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P015",
+    "product_title": "Nintendo Switch OLED",
+    "product_image": "https://example.com/switcholed.jpg",
+    "category": "Gaming",
+    "price": 349,
+    "description": "Handheld console with vibrant OLED screen.",
+    "specification": [
+      "7-inch OLED screen",
+      "64GB internal storage",
+      "Enhanced audio",
+      "Wide adjustable stand",
+      "Nintendo Joy-Con controllers"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P016",
+    "product_title": "PlayStation 5",
+    "product_image": "https://example.com/ps5.jpg",
+    "category": "Gaming",
+    "price": 499,
+    "description": "Next-gen gaming console with ultra-fast SSD.",
+    "specification": [
+      "Custom AMD Zen 2 CPU",
+      "16GB GDDR6 memory",
+      "825GB SSD",
+      "4K UHD Blu-ray",
+      "3D Audio"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P017",
+    "product_title": "Xbox Series X",
+    "product_image": "https://example.com/xboxseriesx.jpg",
+    "category": "Gaming",
+    "price": 499,
+    "description": "Most powerful Xbox with 4K gaming.",
+    "specification": [
+      "12 TFLOPS GPU",
+      "1TB custom SSD",
+      "4K at 120FPS",
+      "Backward compatibility",
+      "Quick Resume"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P018",
+    "product_title": "SteelSeries Arctis Pro",
+    "product_image": "https://example.com/steelseries.jpg",
+    "category": "Gaming",
+    "price": 179,
+    "description": "High-fidelity gaming headset with DAC.",
+    "specification": [
+      "Hi-Res certified",
+      "DTS Headphone:X 2.0",
+      "ClearCast mic",
+      "24-hour battery",
+      "Aluminum alloy"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P019",
+    "product_title": "Corsair K100 RGB",
+    "product_image": "https://example.com/corsairkeyboard.jpg",
+    "category": "Gaming",
+    "price": 229,
+    "description": "Mechanical gaming keyboard with OPX switches.",
+    "specification": [
+      "OPX optical-mechanical",
+      "4000Hz polling",
+      "PBT double-shot keycaps",
+      "iCUE control",
+      "Dynamic RGB lighting"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P020",
+    "product_title": "HyperX Cloud Alpha",
+    "product_image": "https://example.com/hyperxheadset.jpg",
+    "category": "Gaming",
+    "price": 99,
+    "description": "Dual-chamber gaming headset.",
+    "specification": [
+      "50mm drivers",
+      "Detachable noise-canceling mic",
+      "Aircraft-grade aluminum",
+      "Memory foam ear cushions",
+      "3.5mm connector"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P021",
+    "product_title": "Canon EOS R5",
+    "product_image": "https://example.com/canonr5.jpg",
+    "category": "Cameras",
+    "price": 3899,
+    "description": "Professional mirrorless camera with 8K video.",
+    "specification": [
+      "45MP full-frame sensor",
+      "8K 30p video",
+      "In-body stabilization",
+      "Dual pixel autofocus",
+      "CFexpress card slot"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P022",
+    "product_title": "GoPro HERO11 Black",
+    "product_image": "https://example.com/gopro11.jpg",
+    "category": "Cameras",
+    "price": 499,
+    "description": "Action camera with 5.3K video.",
+    "specification": [
+      "27MP photos",
+      "HyperSmooth 5.0",
+      "10-bit color",
+      "Waterproof to 33ft",
+      "Front display"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P023",
+    "product_title": "Sony A7 IV",
+    "product_image": "https://example.com/sonya7iv.jpg",
+    "category": "Cameras",
+    "price": 2499,
+    "description": "Full-frame mirrorless hybrid camera.",
+    "specification": [
+      "33MP sensor",
+      "4K 60p video",
+      "10fps continuous",
+      "Real-time tracking",
+      "5-axis stabilization"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P024",
+    "product_title": "Fujifilm X-T5",
+    "product_image": "https://example.com/fujifilmxt5.jpg",
+    "category": "Cameras",
+    "price": 1699,
+    "description": "Compact mirrorless with 40MP sensor.",
+    "specification": [
+      "X-Trans CMOS 5 HR",
+      "6.2K video",
+      "7-stop IBIS",
+      "425-point AF",
+      "Dual UHS-II slots"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P025",
+    "product_title": "DJI Mavic 3",
+    "product_image": "https://example.com/djimavic3.jpg",
+    "category": "Cameras",
+    "price": 2199,
+    "description": "Professional drone with Hasselblad camera.",
+    "specification": [
+      "4/3 CMOS sensor",
+      "46-minute flight time",
+      "15km transmission",
+      "5.1K video",
+      "Omnidirectional obstacle sensing"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P026",
+    "product_title": "Instant Pot Duo Plus",
+    "product_image": "https://example.com/instantpot.jpg",
+    "category": "Kitchen",
+    "price": 129,
+    "description": "9-in-1 multi-cooker with 15 programs.",
+    "specification": [
+      "6-quart capacity",
+      "Pressure cooker",
+      "Slow cooker",
+      "Yogurt maker",
+      "Sterilizer"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P027",
+    "product_title": "Nespresso Vertuo Plus",
+    "product_image": "https://example.com/nespresso.jpg",
+    "category": "Kitchen",
+    "price": 179,
+    "description": "Premium coffee machine with centrifusion.",
+    "specification": [
+      "5 cup sizes",
+      "54oz water tank",
+      "25-second heat-up",
+      "Automatic ejection",
+      "Energy saving mode"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P028",
+    "product_title": "Breville Barista Express",
+    "product_image": "https://example.com/breville.jpg",
+    "category": "Kitchen",
+    "price": 699,
+    "description": "Semi-automatic espresso machine.",
+    "specification": [
+      "Integrated grinder",
+      "15-bar pressure",
+      "PID temperature control",
+      "54mm portafilter",
+      "Steam wand"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P029",
+    "product_title": "Ninja Foodi 10-in-1",
+    "product_image": "https://example.com/ninjafoodi.jpg",
+    "category": "Kitchen",
+    "price": 229,
+    "description": "Pressure cooker and air fryer combo.",
+    "specification": [
+      "6.5-quart capacity",
+      "TenderCrisp technology",
+      "Dehydrate function",
+      "Dishwasher safe pot",
+      "30+ included recipes"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P030",
+    "product_title": "Vitamix 5200",
+    "product_image": "https://example.com/vitamix.jpg",
+    "category": "Kitchen",
+    "price": 449,
+    "description": "Professional-grade blender for home.",
+    "specification": [
+      "2.2HP motor",
+      "64oz container",
+      "Variable speed control",
+      "Self-cleaning",
+      "10-year warranty"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P031",
+    "product_title": "Amazon Echo Dot (5th Gen)",
+    "product_image": "https://example.com/echodot.jpg",
+    "category": "Smart Home",
+    "price": 49,
+    "description": "Compact smart speaker with Alexa.",
+    "specification": [
+      "Improved audio quality",
+      "Temperature sensor",
+      "Bluetooth connectivity",
+      "Customizable clock display",
+      "Voice control"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P032",
+    "product_title": "Ring Video Doorbell Pro 2",
+    "product_image": "https://example.com/ringdoorbell.jpg",
+    "category": "Smart Home",
+    "price": 249,
+    "description": "Advanced video doorbell with 3D motion.",
+    "specification": [
+      "1536p HD video",
+      "Color night vision",
+      "Two-way talk",
+      "Works with Alexa",
+      "Hardwired or battery"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P033",
+    "product_title": "Roborock S7 MaxV",
+    "product_image": "https://example.com/roborock.jpg",
+    "category": "Smart Home",
+    "price": 899,
+    "description": "AI-powered robot vacuum and mop.",
+    "specification": [
+      "LiDAR navigation",
+      "5100Pa suction",
+      "VibraRise mopping",
+      "ReactiveAI obstacle avoidance",
+      "200-minute runtime"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P034",
+    "product_title": "Govee LED Strip Lights",
+    "product_image": "https://example.com/goveelights.jpg",
+    "category": "Smart Home",
+    "price": 39,
+    "description": "RGBIC LED strip with app control.",
+    "specification": [
+      "16.4ft length",
+      "64 scenes",
+      "Music sync",
+      "DIY modes",
+      "Works with Alexa"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "P035",
+    "product_title": "Philips Hue Starter Kit",
+    "product_image": "https://example.com/huekit.jpg",
+    "category": "Smart Home",
+    "price": 199,
+    "description": "Smart lighting kit with 3 bulbs and hub.",
+    "specification": [
+      "Voice control",
+      "16 million colors",
+      "App control",
+      "Energy efficient",
+      "Works with Alexa/Google"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P036",
+    "product_title": "Apple Watch Series 8",
+    "product_image": "https://example.com/applewatch8.jpg",
+    "category": "Wearables",
+    "price": 399,
+    "description": "Advanced smartwatch with health monitoring.",
+    "specification": [
+      "Always-on Retina display",
+      "Blood oxygen sensor",
+      "ECG app",
+      "Crash detection",
+      "Water resistant 50m"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P037",
+    "product_title": "Fitbit Charge 5",
+    "product_image": "https://example.com/fitbitcharge5.jpg",
+    "category": "Wearables",
+    "price": 179,
+    "description": "Advanced fitness tracker with stress management.",
+    "specification": [
+      "Color touchscreen",
+      "Built-in GPS",
+      "ECG app",
+      "7-day battery",
+      "Water resistant 50m"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "P038",
+    "product_title": "Garmin Fenix 7",
+    "product_image": "https://example.com/garminfenix7.jpg",
+    "category": "Wearables",
+    "price": 699,
+    "description": "Premium multisport GPS watch.",
+    "specification": [
+      "Solar charging",
+      "32GB storage",
+      "TopoActive maps",
+      "Pulse Ox sensor",
+      "Up to 18-day battery"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P039",
+    "product_title": "Samsung Galaxy Watch 5",
+    "product_image": "https://example.com/galaxywatch5.jpg",
+    "category": "Wearables",
+    "price": 299,
+    "description": "Smartwatch with advanced health tracking.",
+    "specification": [
+      "BioActive sensor",
+      "GPS",
+      "Sleep tracking",
+      "Water resistant",
+      "Wireless charging"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P040",
+    "product_title": "Amazfit GTR 4",
+    "product_image": "https://example.com/amazfitgtr4.jpg",
+    "category": "Wearables",
+    "price": 199,
+    "description": "Stylish smartwatch with long battery life.",
+    "specification": [
+      "AMOLED display",
+      "150+ sports modes",
+      "14-day battery",
+      "GPS",
+      "Alexa built-in"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "P041",
+    "product_title": "Google Nest Hub (2nd Gen)",
+    "product_image": "https://example.com/nesthub.jpg",
+    "category": "Smart Home",
+    "price": 99,
+    "description": "Smart display with Google Assistant.",
+    "specification": [
+      "7-inch display",
+      "Voice control",
+      "Sleep sensing",
+      "WiFi",
+      "Smart home control"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P042",
+    "product_title": "Wyze Cam v3",
+    "product_image": "https://example.com/wyzecam.jpg",
+    "category": "Smart Home",
+    "price": 35,
+    "description": "Affordable smart security camera.",
+    "specification": [
+      "1080p HD",
+      "Color night vision",
+      "Weather resistant",
+      "Motion detection",
+      "2-way audio"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P043",
+    "product_title": "Tile Pro",
+    "product_image": "https://example.com/tilepro.jpg",
+    "category": "Smart Home",
+    "price": 34,
+    "description": "Bluetooth tracker with replaceable battery.",
+    "specification": [
+      "400ft range",
+      "1-year battery",
+      "Water resistant",
+      "Ring feature",
+      "Community find"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "P044",
+    "product_title": "Withings Body+",
+    "product_image": "https://example.com/withingsscale.jpg",
+    "category": "Smart Home",
+    "price": 99,
+    "description": "Smart scale with body composition.",
+    "specification": [
+      "Measures fat/muscle/bone mass",
+      "WiFi/BLE sync",
+      "Unlimited users",
+      "Pregnancy mode",
+      "18-month battery"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "P045",
+    "product_title": "Samsung Galaxy Buds2 Pro",
+    "product_image": "https://example.com/galaxybuds2pro.jpg",
+    "category": "Audio",
+    "price": 229,
+    "description": "Premium wireless earbuds with ANC.",
+    "specification": [
+      "Active noise canceling",
+      "Hi-Fi sound",
+      "Wireless charging",
+      "IPX7 water resistant",
+      "Bluetooth 5.3"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P046",
+    "product_title": "Marshall Emberton II",
+    "product_image": "https://example.com/marshallemb.jpg",
+    "category": "Audio",
+    "price": 169,
+    "description": "Portable Bluetooth speaker with iconic sound.",
+    "specification": [
+      "30-hour battery",
+      "IP67 waterproof",
+      "Multi-directional sound",
+      "USB-C charging",
+      "Compact design"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P047",
+    "product_title": "Lenovo Legion 5 Pro",
+    "product_image": "https://example.com/legion5pro.jpg",
+    "category": "Laptops",
+    "price": 1599,
+    "description": "Gaming laptop with RTX graphics.",
+    "specification": [
+      "16-inch QHD",
+      "AMD Ryzen 7",
+      "RTX 3070",
+      "16GB RAM",
+      "1TB SSD"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P048",
+    "product_title": "Asus ZenBook 14",
+    "product_image": "https://example.com/zenbook14.jpg",
+    "category": "Laptops",
+    "price": 899,
+    "description": "Slim ultrabook with OLED display.",
+    "specification": [
+      "14-inch OLED",
+      "Intel Core i5",
+      "8GB RAM",
+      "512GB SSD",
+      "Windows 11"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P049",
+    "product_title": "KitchenAid Artisan Mixer",
+    "product_image": "https://example.com/kitchenaid.jpg",
+    "category": "Kitchen",
+    "price": 399,
+    "description": "Iconic stand mixer for home bakers.",
+    "specification": [
+      "5-quart bowl",
+      "10 speeds",
+      "Tilt-head design",
+      "Multiple attachments",
+      "Metal construction"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P050",
+    "product_title": "Apple AirPods Pro (2nd Gen)",
+    "product_image": "https://example.com/airpodspro2.jpg",
+    "category": "Audio",
+    "price": 249,
+    "description": "Wireless earbuds with active noise cancellation.",
+    "specification": [
+      "Active noise canceling",
+      "Transparency mode",
+      "MagSafe charging",
+      "Sweat and water resistant",
+      "Adaptive EQ"
+    ],
+    "availability": true,
+    "rating": 4.8
+  }
 ]
