@@ -4,6 +4,10 @@ import { AppContext } from "./Provider";
 export const AppProvider = ({ children }) => {
   const [allData, setAllData] = useState([]);
   const [categories, setCategories] = useState([]);
+  const [selected, setSelected] = useState("All");
+
+
+
 
   useEffect(() => {
     const fetchData = async () => {
@@ -29,6 +33,9 @@ export const AppProvider = ({ children }) => {
     fetchData();
   }, [setAllData, setCategories]);
 
+
+
+
   console.log(allData, categories);
 
   const value = {
@@ -36,6 +43,8 @@ export const AppProvider = ({ children }) => {
     setAllData,
     categories,
     setCategories,
+    selected,
+    setSelected,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
