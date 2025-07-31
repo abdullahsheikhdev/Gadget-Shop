@@ -5,7 +5,7 @@ import { AppContext } from "../context/Provider";
 
 
 const UniqueCategories = () => {
-  const {allData,categories,setAllData,setCategories} = useContext(AppContext) 
+  const {setAllData,setCategories} = useContext(AppContext) 
 
   useEffect(() => {
     const fetchData = async () => {
@@ -34,8 +34,7 @@ const UniqueCategories = () => {
 
   return (
     <div>
-        <h1>{allData.length}</h1>
-        <h1>{categories.length}</h1>
+
     </div>
   );
 };
