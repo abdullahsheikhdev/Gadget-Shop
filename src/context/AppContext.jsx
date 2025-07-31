@@ -6,9 +6,6 @@ export const AppProvider = ({ children }) => {
   const [categories, setCategories] = useState([]);
   const [selected, setSelected] = useState("All");
 
-
-
-
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -33,10 +30,17 @@ export const AppProvider = ({ children }) => {
     fetchData();
   }, [setAllData, setCategories]);
 
+  const handelAllData = () => {
+    if (selected === "All") {
+      return allData;
+    } else {
+      return allData.filter((rest) => rest.category === selected);
+    }
+  };
 
-
-
-  console.log(allData, categories);
+  // console.log(allData, categories);
+  console.log(typeof selected);
+  console.log(handelAllData());
 
   const value = {
     allData,
@@ -45,6 +49,7 @@ export const AppProvider = ({ children }) => {
     setCategories,
     selected,
     setSelected,
+    handelAllData,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;

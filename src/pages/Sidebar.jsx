@@ -6,6 +6,7 @@ const Sidebar = () => {
 
   const handleName = (category) => {
     console.log("Selected category:", category);
+    console.log(typeof categories);
     setSelected(category);
   };
 
