@@ -1,13 +1,14 @@
 import { useParams } from "react-router-dom";
 import { MdFavoriteBorder } from "react-icons/md";
-import { FaStar, FaRegStar, FaShoppingCart } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
 import { useContext, useEffect, useState } from "react";
 import { AppContext } from "../context/Provider";
 import { RatingWithGradient } from "../components/RatingWithGradient ";
 
 const DetailsProdect = () => {
   const { id } = useParams();
-  const { allData } = useContext(AppContext);
+  const { cartItems, setCartItems, favorites, setFavorites, allData } =
+    useContext(AppContext);
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -24,6 +25,18 @@ const DetailsProdect = () => {
       </div>
     );
   }
+
+  const handleAddToCart = () => {
+    if (!cartItems.includes(data.product_id)) {
+      setCartItems([...cartItems, data.product_id]);
+    }
+  };
+
+  const handleAddToFavorites = () => {
+    if (!favorites.includes(data.product_id)) {
+      setFavorites([...favorites, data.product_id]);
+    }
+  };
 
   return (
     <div>
@@ -86,10 +99,23 @@ const DetailsProdect = () => {
 
           {/* Buttons */}
           <div className="flex items-center gap-4">
-            <button className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-3 rounded-full shadow transition">
+            {/* Add to Cart Button */}
+            <button
+              onClick={handleAddToCart}
+              className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-3 rounded-full shadow transition"
+            >
               Add To Cart <FaShoppingCart />
             </button>
-            <button className="w-12 h-12 flex items-center justify-center border border-gray-300 rounded-full hover:bg-gray-100 transition">
+
+            {/* Favorite Button */}
+            <button
+              onClick={handleAddToFavorites}
+              className={`w-12 h-12 flex items-center justify-center border ${
+                favorites.includes(data.product_id)
+                  ? "bg-gray-200 text-black"
+                  : "border-gray-300"
+              } rounded-full hover:bg-gray-100 transition`}
+            >
               <MdFavoriteBorder className="h-5 w-5" />
             </button>
           </div>

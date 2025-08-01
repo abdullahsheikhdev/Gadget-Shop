@@ -5,6 +5,8 @@ export const AppProvider = ({ children }) => {
   const [allData, setAllData] = useState([]);
   const [categories, setCategories] = useState([]);
   const [selected, setSelected] = useState("All");
+  const [cartItems, setCartItems] = useState([]);
+  const [favorites, setFavorites] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -37,6 +39,10 @@ export const AppProvider = ({ children }) => {
     setCategories,
     selected,
     setSelected,
+    cartItems,
+    setCartItems,
+    favorites,
+    setFavorites,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
