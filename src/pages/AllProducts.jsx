@@ -1,5 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { AppContext } from "../context/Provider";
+import Cards from "../components/Cards";
 
 const AllProducts = () => {
   const { allData, selected } = useContext(AppContext);
@@ -29,9 +30,13 @@ const AllProducts = () => {
           <span className="text-purple-500 font-semibold">Loading...</span>
         </div>
       ) : (
-        data.length
+        <div className="grid grid-cols-4 my-4 gap-4">
+          {
+            data.map((rest, indx) => (
+            <Cards key={indx} card={rest} />
+          ))}
+        </div>
       )}
-      <h1>hello</h1>
     </div>
   );
 };

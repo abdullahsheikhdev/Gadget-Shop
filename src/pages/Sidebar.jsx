@@ -11,7 +11,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="shadow-sm p-10 my-5">
+    <div className="shadow-sm h-fit p-10 my-5">
       <div
         onClick={() => handleName("All")}
         className={`p-2 cursor-pointer rounded-2xl mb-3 ${

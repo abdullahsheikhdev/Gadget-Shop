@@ -8,7 +8,7 @@ const Shop = () => {
       <h1 className="mt-5 font-bold text-4xl text-center">
         Explore Cutting-Tech Gient
       </h1>
-      <div className="grid grid-cols-5 mt-5">
+      <div className="grid grid-cols-5 mt-5 gap-5">
         <Sidebar />
         <div className="col-span-4">
           <AllProducts />
