@@ -14,12 +14,12 @@
       "Up to 2TB storage"
     ],
     "availability": true,
-    "rating": 4.8
+    "rating": 3.8
   },
   {
     "product_id": "P002",
     "product_title": "Samsung Galaxy S23 Ultra",
-    "product_image": "https://example.com/s23ultra.jpg",
+    "product_image": "https://www.mobiledokan.com/media/samsung-galaxy-s23-ultra-green-official-image_1.webp",
     "category": "Smartphones",
     "price": 1199,
     "description": "Powerful Android flagship with S Pen support.",
