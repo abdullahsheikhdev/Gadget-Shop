@@ -8,6 +8,7 @@ export const AppProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);
   const [favorites, setFavorites] = useState([]);
   const [price, setPrice] = useState(0);
+  const [data, setData] = useState(null);
   const [activeTab, setActiveTab] = useState("cart");
 
   useEffect(() => {
@@ -52,6 +53,7 @@ export const AppProvider = ({ children }) => {
     setPrice,
     activeTab,
     setActiveTab,
+    data, setData,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;

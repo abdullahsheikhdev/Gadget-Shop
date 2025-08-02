@@ -1,23 +1,23 @@
 import { useParams } from "react-router-dom";
 import { MdFavoriteBorder } from "react-icons/md";
 import { FaShoppingCart } from "react-icons/fa";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect } from "react";
 import { AppContext } from "../context/Provider";
 import { RatingWithGradient } from "../components/RatingWithGradient ";
 import { toast } from "react-toastify";
 
 const DetailsProdect = () => {
   const { id } = useParams();
-  const { cartItems, setCartItems, favorites, setFavorites, allData, setPrice } =
+  const { cartItems, setCartItems, favorites, setFavorites, allData, setPrice, data, setData } =
     useContext(AppContext);
-  const [data, setData] = useState(null);
+  
 
   useEffect(() => {
     if (allData.length > 0) {
       const product = allData.find((item) => item.product_id === id);
       setData(product);
     }
-  }, [id, allData]);
+  }, [id, allData,setData]);
 
   if (!data) {
     return (
