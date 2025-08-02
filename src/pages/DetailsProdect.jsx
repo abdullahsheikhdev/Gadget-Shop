@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 
 const DetailsProdect = () => {
   const { id } = useParams();
-  const { cartItems, setCartItems, favorites, setFavorites, allData } =
+  const { cartItems, setCartItems, favorites, setFavorites, allData, setPrice } =
     useContext(AppContext);
   const [data, setData] = useState(null);
 
@@ -30,6 +30,7 @@ const DetailsProdect = () => {
   const handleAddToCart = () => {
     if (!cartItems.includes(data.product_id)) {
       setCartItems([...cartItems, data.product_id]);
+      setPrice(prev => prev + data.price);
       toast.success("✅ Added to cart");
     } else {
       toast.info("⚠️ Already in cart");

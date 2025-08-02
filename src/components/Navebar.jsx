@@ -9,7 +9,7 @@ const Navebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
   const ishome = location.pathname === "/";
-  const { favorites, cartItems } = useContext(AppContext);
+  const { favorites, cartItems, price, setActiveTab} = useContext(AppContext);
 
   return (
     <div
@@ -85,10 +85,10 @@ const Navebar = () => {
                   <span className="text-lg font-bold text-black">
                     {cartItems.length} Items
                   </span>
-                  <span className="text-info">Subtotal: $999</span>
+                  <span className="text-info">Subtotal: ${price}</span>
                   <div className="card-actions">
                     <NavLink to={"/dashbord"}>
-                      <button className="btn btn-primary btn-block">
+                      <button onClick={() => setActiveTab("cart")} className="btn btn-primary btn-block">
                         View cart
                       </button>
                     </NavLink>
@@ -121,7 +121,7 @@ const Navebar = () => {
                   </span>
                   <div className="card-actions">
                     <NavLink to={"/dashbord"}>
-                      <button className="btn btn-primary btn-block">
+                      <button  onClick={() => setActiveTab("wishlist")} className="btn btn-primary btn-block">
                         View favorites
                       </button>
                     </NavLink>

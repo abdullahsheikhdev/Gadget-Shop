@@ -7,6 +7,8 @@ export const AppProvider = ({ children }) => {
   const [selected, setSelected] = useState("All");
   const [cartItems, setCartItems] = useState([]);
   const [favorites, setFavorites] = useState([]);
+  const [price, setPrice] = useState(0);
+  const [activeTab, setActiveTab] = useState("cart");
 
   useEffect(() => {
     const fetchData = async () => {
@@ -32,7 +34,7 @@ export const AppProvider = ({ children }) => {
     fetchData();
   }, [setAllData, setCategories]);
 
-  console.log(cartItems,favorites);
+  console.log(price);
   
 
   const value = {
@@ -46,6 +48,10 @@ export const AppProvider = ({ children }) => {
     setCartItems,
     favorites,
     setFavorites,
+    price,
+    setPrice,
+    activeTab,
+    setActiveTab,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
