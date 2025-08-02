@@ -32,6 +32,9 @@ export const AppProvider = ({ children }) => {
     fetchData();
   }, [setAllData, setCategories]);
 
+  console.log(cartItems,favorites);
+  
+
   const value = {
     allData,
     setAllData,

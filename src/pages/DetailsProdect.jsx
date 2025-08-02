@@ -4,6 +4,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import { useContext, useEffect, useState } from "react";
 import { AppContext } from "../context/Provider";
 import { RatingWithGradient } from "../components/RatingWithGradient ";
+import { toast } from "react-toastify";
 
 const DetailsProdect = () => {
   const { id } = useParams();
@@ -29,12 +30,18 @@ const DetailsProdect = () => {
   const handleAddToCart = () => {
     if (!cartItems.includes(data.product_id)) {
       setCartItems([...cartItems, data.product_id]);
+      toast.success("✅ Added to cart");
+    } else {
+      toast.info("⚠️ Already in cart");
     }
   };
 
   const handleAddToFavorites = () => {
     if (!favorites.includes(data.product_id)) {
       setFavorites([...favorites, data.product_id]);
+      toast.success("❤️ Added to favorites");
+    } else {
+      toast.info("⚠️ Already in favorites");
     }
   };
 

@@ -4,6 +4,9 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css"; // Import styles
+
 import HomeLayout from "./rootLayouts/HomeLayout";
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
@@ -32,6 +35,18 @@ function App() {
   return (
     <>
       <RouterProvider router={route} />
+      <ToastContainer
+        position="top-right"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
     </>
   );
 }

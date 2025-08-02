@@ -1,20 +1,36 @@
 import { MdFavoriteBorder } from "react-icons/md";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
+import { useContext } from "react";
+import { AppContext } from "../context/Provider";
 
 const Navebar = () => {
-  const navelink = useNavigate()
+  const navelink = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
-  const location = useLocation()
+  const location = useLocation();
   const ishome = location.pathname === "/";
+  const { favorites, cartItems } = useContext(AppContext);
 
   return (
-    <div className={`${ishome ? "bg-[#9538E2] mx-2 mt-1 rounded-t-2xl" : "bg-white "}`} >
+    <div
+      className={`${
+        ishome ? "bg-[#9538E2] mx-2 mt-1 rounded-t-2xl" : "bg-white "
+      }`}
+    >
       <div className="container mx-auto">
-        <div className={`navbar flex justify-between items-center py-4 ${ishome ? "bg-[#9538E2] mx-2 text-white" : "bg-white text-black"}`}>
+        <div
+          className={`navbar flex justify-between items-center py-4 ${
+            ishome ? "bg-[#9538E2] mx-2 text-white" : "bg-white text-black"
+          }`}
+        >
           {/* Logo */}
           <div>
-            <a onClick={()=> navelink("/")} className="cursor-context-menu text-2xl font-bold">Tech Gient</a>
+            <a
+              onClick={() => navelink("/")}
+              className="cursor-context-menu text-2xl font-bold"
+            >
+              Tech Gient
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -57,7 +73,7 @@ const Navebar = () => {
                     />
                   </svg>
                   <span className="badge badge-sm indicator-item -mt-2 border border-gray-200">
-                    8
+                    {cartItems.length}
                   </span>
                 </div>
               </div>
@@ -66,12 +82,16 @@ const Navebar = () => {
                 className="dropdown-content bg-base-100 z-10 mt-3 w-52 shadow card card-compact"
               >
                 <div className="card-body">
-                  <span className="text-lg font-bold">8 Items</span>
+                  <span className="text-lg font-bold text-black">
+                    {cartItems.length} Items
+                  </span>
                   <span className="text-info">Subtotal: $999</span>
                   <div className="card-actions">
-                    <button className="btn btn-primary btn-block">
-                      View cart
-                    </button>
+                    <NavLink to={"/dashbord"}>
+                      <button className="btn btn-primary btn-block">
+                        View cart
+                      </button>
+                    </NavLink>
                   </div>
                 </div>
               </div>
@@ -87,7 +107,7 @@ const Navebar = () => {
                 <div className="indicator">
                   <MdFavoriteBorder className="h-5 w-5" />
                   <span className="badge badge-sm indicator-item -mt-2 border border-gray-200">
-                    8
+                    {favorites.length}
                   </span>
                 </div>
               </div>
@@ -96,12 +116,15 @@ const Navebar = () => {
                 className="dropdown-content bg-base-100 z-10 mt-3 w-52 shadow card card-compact"
               >
                 <div className="card-body">
-                  <span className="text-lg font-bold">8 Items</span>
-                  <span className="text-info">Subtotal: $999</span>
+                  <span className="text-lg font-bold text-black">
+                    {favorites.length} Items
+                  </span>
                   <div className="card-actions">
-                    <button className="btn btn-primary btn-block">
-                      View favorites
-                    </button>
+                    <NavLink to={"/dashbord"}>
+                      <button className="btn btn-primary btn-block">
+                        View favorites
+                      </button>
+                    </NavLink>
                   </div>
                 </div>
               </div>
