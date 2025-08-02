@@ -2,11 +2,13 @@ import { useContext, useEffect } from "react";
 import { SlClose } from "react-icons/sl";
 import { AppContext } from "../context/Provider";
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const Cart = () => {
   const { price, cartItems, allData, setCartItems, setPrice } =
     useContext(AppContext);
   const [prodect, setProdect] = useState([]);
+  const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
     if (allData.length > 0 && cartItems.length > 0) {
@@ -17,18 +19,32 @@ const Cart = () => {
     }
   }, [allData, cartItems]);
 
- const handleRemoveFromCart = (productId) => {
-  const removedItem = allData.find((item) => item.product_id === productId);
+  const handleRemoveFromCart = (productId) => {
+    const removedItem = allData.find((item) => item.product_id === productId);
 
-  const updatedCart = cartItems.filter((id) => id !== productId);
-  setCartItems(updatedCart);
+    const updatedCart = cartItems.filter((id) => id !== productId);
+    setCartItems(updatedCart);
 
-  const updatedProducts = prodect.filter((p) => p.product_id !== productId);
-  setProdect(updatedProducts);
+    const updatedProducts = prodect.filter((p) => p.product_id !== productId);
+    setProdect(updatedProducts);
 
-  setPrice((prev) => prev - removedItem.price);
-};
+    setPrice((prev) => prev - removedItem.price);
+  };
 
+  const handlePurchase = () => {
+    if (cartItems.length === 0) {
+      toast.info("🛒 Your cart is empty.");
+      return;
+    }
+
+    // Show modal instead of toast
+    setShowModal(true);
+
+    // Clear cart data
+    setCartItems([]);
+    setProdect([]);
+    setPrice(0);
+  };
 
   console.log(prodect);
 
@@ -40,7 +56,27 @@ const Cart = () => {
           <h1 className="font-medium">
             Totale price: $<span>{price}</span>
           </h1>
-          <button>Purchase</button>
+          {showModal && (
+            <div className="fixed inset-0 z-50 flex items-center justify-center backdrop-blur-sm bg-opacity-50">
+              <div className="bg-white rounded-lg shadow-lg max-w-md w-full p-6 text-center">
+                <h2 className="text-2xl font-bold text-green-600 mb-4">
+                  🎉 Purchase Successful!
+                </h2>
+                <p className="text-gray-700 mb-6">
+                  Thank you for your purchase.
+                </p>
+                <button
+                  onClick={() => setShowModal(false)}
+                  className="px-6 py-2 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-full"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          )}
+          <button onClick={handlePurchase} className="py-2 px-8 bg-purple-500 text-white rounded-2xl cursor-pointer">
+            Purchase
+          </button>
         </div>
       </div>
       {prodect.map((prod, index) => (
