@@ -4,7 +4,8 @@ import { AppContext } from "../context/Provider";
 import { useState } from "react";
 
 const Cart = () => {
-  const { price, cartItems, allData } = useContext(AppContext);
+  const { price, cartItems, allData, setCartItems, setPrice } =
+    useContext(AppContext);
   const [prodect, setProdect] = useState([]);
 
   useEffect(() => {
@@ -15,6 +16,19 @@ const Cart = () => {
       setProdect(matchedProducts);
     }
   }, [allData, cartItems]);
+
+ const handleRemoveFromCart = (productId) => {
+  const removedItem = allData.find((item) => item.product_id === productId);
+
+  const updatedCart = cartItems.filter((id) => id !== productId);
+  setCartItems(updatedCart);
+
+  const updatedProducts = prodect.filter((p) => p.product_id !== productId);
+  setProdect(updatedProducts);
+
+  setPrice((prev) => prev - removedItem.price);
+};
+
 
   console.log(prodect);
 
@@ -53,7 +67,10 @@ const Cart = () => {
             </p>
           </div>
 
-          <button className="ml-8 w-10 h-10 flex items-center justify-center rounded-full cursor-pointer text-2xl text-red-500 hover:bg-red-50 transition">
+          <button
+            onClick={() => handleRemoveFromCart(prod.product_id)}
+            className="ml-8 w-10 h-10 flex items-center justify-center rounded-full cursor-pointer text-2xl text-red-500 hover:bg-red-50 transition"
+          >
             <SlClose />
           </button>
         </div>
