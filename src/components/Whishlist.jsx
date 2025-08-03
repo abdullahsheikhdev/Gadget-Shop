@@ -71,11 +71,11 @@ const Whishlist = () => {
           className="bg-white rounded-2xl p-8 flex items-center shadow-sm mx-2 my-4"
           style={{ minHeight: 200 }}
         >
-          <div className="w-52 h-28 bg-gray-300 rounded-lg flex-shrink-0">
+          <div className="w-52 h-48 rounded-lg flex-shrink-0">
             <img
               src={prod.product_image}
               alt={prod.product_title}
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-contain rounded-lg"
             />
           </div>
 

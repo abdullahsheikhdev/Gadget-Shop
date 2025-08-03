@@ -60,9 +60,9 @@ const DetailsProdect = () => {
         </div>
       </div>
 
-
+ 
       <div className="bg-white rounded-2xl shadow-lg p-8 flex max-w-5xl mx-auto -mt-44 mb-10 border-2 border-gray-100">
-
+        {/* Product Image */}
         <div className="w-96 h-96 bg-gray-200 rounded-xl flex-shrink-0">
           <img
             src={data.product_image}
@@ -107,7 +107,7 @@ const DetailsProdect = () => {
 
 
           <div className="flex items-center gap-4">
-
+ 
             <button
               onClick={handleAddToCart}
               className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-3 rounded-full shadow transition"
