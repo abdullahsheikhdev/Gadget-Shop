@@ -53,7 +53,7 @@
   {
     "product_id": "P004",
     "product_title": "OnePlus 11",
-    "product_image": "https://example.com/oneplus11.jpg",
+    "product_image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-11-5.jpg",
     "category": "Smartphones",
     "price": 799,
     "description": "Flagship killer with fast charging.",
@@ -70,7 +70,7 @@
   {
     "product_id": "P005",
     "product_title": "Sony WH-1000XM5",
-    "product_image": "https://example.com/sonyheadphones.jpg",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/5318-55349.jpg",
     "category": "Audio",
     "price": 399,
     "description": "Industry-leading noise canceling headphones.",
@@ -87,7 +87,7 @@
   {
     "product_id": "P006",
     "product_title": "Bose QuietComfort Earbuds II",
-    "product_image": "https://example.com/boseearbuds.jpg",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Bose-QuietComfort-Earbuds-II-a-4549.jpg",
     "category": "Audio",
     "price": 279,
     "description": "Premium wireless earbuds with noise canceling.",
@@ -104,7 +104,7 @@
   {
     "product_id": "P007",
     "product_title": "Sonos Beam",
-    "product_image": "https://example.com/sonosbeam.jpg",
+    "product_image": "https://media.sonos.com/images/znqtjj88/production/ce2f42adcd4ad0ad04cea160c10e7c76c7cb1641-2480x2480.png?w=1920&q=100&fit=clip&auto=format",
     "category": "Audio",
     "price": 449,
     "description": "Compact smart soundbar with Dolby Atmos.",
@@ -121,7 +121,7 @@
   {
     "product_id": "P008",
     "product_title": "JBL Flip 6",
-    "product_image": "https://example.com/jblflip6.jpg",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/portable-speaker/Jbl/jbl-flip-6/flip-6-black-001-500x500.webp",
     "category": "Audio",
     "price": 129,
     "description": "Portable Bluetooth speaker with punchy bass.",
@@ -138,7 +138,7 @@
   {
     "product_id": "P009",
     "product_title": "Bose SoundLink Revolve+",
-    "product_image": "https://example.com/bosespeaker.jpg",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/2636-74709.jpg",
     "category": "Audio",
     "price": 329,
     "description": "360-degree portable Bluetooth speaker.",
@@ -155,7 +155,7 @@
   {
     "product_id": "P010",
     "product_title": "MacBook Pro 16-inch",
-    "product_image": "https://example.com/macbookpro.jpg",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-m4-pro-space-black/macbook-pro-16-m4-pro-space-black-01-500x500.webp",
     "category": "Laptops",
     "price": 2499,
     "description": "Professional laptop with M2 Max chip.",
@@ -172,7 +172,7 @@
   {
     "product_id": "P011",
     "product_title": "Microsoft Surface Laptop 5",
-    "product_image": "https://example.com/surfacelaptop5.jpg",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/laptop/microsoft/surface-pro-10/surface-pro-10-01-500x500.webp",
     "category": "Laptops",
     "price": 1299,
     "description": "Sleek Windows laptop with touchscreen.",
@@ -189,7 +189,7 @@
   {
     "product_id": "P012",
     "product_title": "Razer Blade 15",
-    "product_image": "https://example.com/razerblade.jpg",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/laptop/razer/blade-15/base-model_1-500x500.jpg",
     "category": "Laptops",
     "price": 2499,
     "description": "Gaming laptop with high refresh display.",
@@ -206,7 +206,7 @@
   {
     "product_id": "P013",
     "product_title": "Dell XPS 13",
-    "product_image": "https://example.com/dellxps13.jpg",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/xps-13-plus-9320/xps-13-plus-9320-01-500x500.webp",
     "category": "Laptops",
     "price": 999,
     "description": "Ultra-portable laptop with InfinityEdge display.",
