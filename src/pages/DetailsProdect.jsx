@@ -60,9 +60,9 @@ const DetailsProdect = () => {
         </div>
       </div>
 
-      {/* Main Product Card */}
+
       <div className="bg-white rounded-2xl shadow-lg p-8 flex max-w-5xl mx-auto -mt-44 mb-10 border-2 border-gray-100">
-        {/* Product Image */}
+
         <div className="w-96 h-96 bg-gray-200 rounded-xl flex-shrink-0">
           <img
             src={data.product_image}
@@ -71,7 +71,7 @@ const DetailsProdect = () => {
           />
         </div>
 
-        {/* Product Details */}
+
         <div className="ml-10 flex flex-col justify-between flex-1">
           <div>
             <h2 className="text-3xl font-bold mb-2">{data.product_title}</h2>
@@ -83,7 +83,7 @@ const DetailsProdect = () => {
             </span>
             <p className="text-gray-500 mb-4">{data.description}</p>
 
-            {/* Specification */}
+
             {data.specification?.length > 0 && (
               <div className="mb-4">
                 <span className="font-bold">Specification:</span>
@@ -95,7 +95,7 @@ const DetailsProdect = () => {
               </div>
             )}
 
-            {/* Rating */}
+
             <div className="mb-4">
               <span className="font-bold">Rating</span>
               <span className="ml-1">⭐</span>
@@ -105,9 +105,9 @@ const DetailsProdect = () => {
             </div>
           </div>
 
-          {/* Buttons */}
+
           <div className="flex items-center gap-4">
-            {/* Add to Cart Button */}
+
             <button
               onClick={handleAddToCart}
               className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-3 rounded-full shadow transition"
@@ -115,7 +115,7 @@ const DetailsProdect = () => {
               Add To Cart <FaShoppingCart />
             </button>
 
-            {/* Favorite Button */}
+
             <button
               onClick={handleAddToFavorites}
               className={`w-12 h-12 flex items-center justify-center border ${
