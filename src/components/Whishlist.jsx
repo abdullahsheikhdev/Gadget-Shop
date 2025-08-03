@@ -5,7 +5,14 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 
 const Whishlist = () => {
-  const { favorites, allData, setFavorites, setPrice, cartItems, setCartItems,} = useContext(AppContext);
+  const {
+    favorites,
+    allData,
+    setFavorites,
+    setPrice,
+    cartItems,
+    setCartItems,
+  } = useContext(AppContext);
   const [prodect, setProdect] = useState([]);
 
   useEffect(() => {
@@ -29,21 +36,35 @@ const Whishlist = () => {
     setPrice((prev) => prev - removedItem.price);
   };
 
- const handleAddToCart = (product) => {
-  if (!cartItems.includes(product.product_id)) {
-    setCartItems([...cartItems, product.product_id]);
-    setPrice((prev) => prev + product.price);
-    toast.success("✅ Added to cart");
-  } else {
-    toast.info("⚠️ Already in cart");
-  }
-};
+  const handleAddToCart = (product) => {
+    if (!cartItems.includes(product.product_id)) {
+      setCartItems([...cartItems, product.product_id]);
+      setPrice((prev) => prev + product.price);
+      toast.success("✅ Added to cart");
+    } else {
+      toast.info("⚠️ Already in cart");
+    }
+  };
 
+    const handlePurchase = () => {
+    if (favorites.length === 0) {
+      toast.info("🛒 Your cart is empty.");
+      return;
+    }
+    // Clear cart data
+    setFavorites([]);
+    setProdect([]);
+  };
   console.log(prodect);
 
   return (
     <div>
-      <h1 className="font-medium text-2xl">Whishlist</h1>
+      <div className="flex justify-between">
+        <h1 className="font-medium text-2xl">Whishlist</h1>
+        <button onClick={handlePurchase} className="py-2 px-8 bg-red-500 text-white rounded-2xl cursor-pointer">
+            All Delete
+          </button>
+      </div>
       {prodect.map((prod, index) => (
         <div
           key={index}
@@ -66,7 +87,10 @@ const Whishlist = () => {
             <p className="text-lg font-semibold text-gray-800">
               <span className="font-bold">Price:</span> ${prod.price}
             </p>
-            <button onClick={() => handleAddToCart(prod)} className="bg-purple-600 hover:bg-purple-700 text-white mt-5 px-8 py-2 rounded-full font-medium transition">
+            <button
+              onClick={() => handleAddToCart(prod)}
+              className="bg-purple-600 hover:bg-purple-700 text-white mt-5 px-8 py-2 rounded-full font-medium transition"
+            >
               Add to Card
             </button>
           </div>
