@@ -10,6 +10,7 @@ export const AppProvider = ({ children }) => {
   const [price, setPrice] = useState(0);
   const [data, setData] = useState(null);
   const [activeTab, setActiveTab] = useState("cart");
+  const [sortOrder, setSortOrder] = useState("default");
 
   useEffect(() => {
     const fetchData = async () => {
@@ -36,7 +37,6 @@ export const AppProvider = ({ children }) => {
   }, [setAllData, setCategories]);
 
   console.log(price);
-  
 
   const value = {
     allData,
@@ -53,7 +53,10 @@ export const AppProvider = ({ children }) => {
     setPrice,
     activeTab,
     setActiveTab,
-    data, setData,
+    data,
+    setData,
+    sortOrder, 
+    setSortOrder,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;

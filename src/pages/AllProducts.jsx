@@ -3,7 +3,7 @@ import { AppContext } from "../context/Provider";
 import Cards from "../components/Cards";
 
 const AllProducts = () => {
-  const { allData, selected } = useContext(AppContext);
+  const { allData, selected, sortOrder } = useContext(AppContext);
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -11,16 +11,22 @@ const AllProducts = () => {
     setLoading(true);
     setTimeout(() => {
       if (allData.length > 0) {
-        if (selected === "All") {
-          setData(allData);
-        } else {
-          const d = allData.filter((rest) => rest.category === selected);
-          setData(d);
+        let filteredData =
+          selected === "All"
+            ? [...allData]
+            : allData.filter((item) => item.category === selected);
+
+        if (sortOrder === "low") {
+          filteredData.sort((a, b) => a.price - b.price);
+        } else if (sortOrder === "high") {
+          filteredData.sort((a, b) => b.price - a.price);
         }
+
+        setData(filteredData);
       }
       setLoading(false);
     }, 1000);
-  }, [allData, selected]);
+  }, [allData, selected, sortOrder]);
 
   return (
     <div>
@@ -31,8 +37,7 @@ const AllProducts = () => {
         </div>
       ) : (
         <div className="grid grid-cols-4 my-4 gap-4">
-          {
-            data.map((rest, indx) => (
+          {data.map((rest, indx) => (
             <Cards key={indx} card={rest} />
           ))}
         </div>
