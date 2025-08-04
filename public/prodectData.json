@@ -325,7 +325,7 @@
   {
     "product_id": "P020",
     "product_title": "HyperX Cloud Alpha",
-    "product_image": "https://example.com/hyperxheadset.jpg",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/headphone/hyperx/cloud-alpha/cloud-alpha-500x500.jpg",
     "category": "Gaming",
     "price": 99,
     "description": "Dual-chamber gaming headset.",
@@ -342,7 +342,7 @@
   {
     "product_id": "P021",
     "product_title": "Canon EOS R5",
-    "product_image": "https://example.com/canonr5.jpg",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/camera/dslr-camera/canon/eos-r5/eos-r5-01-500x500.webp",
     "category": "Cameras",
     "price": 3899,
     "description": "Professional mirrorless camera with 8K video.",
@@ -359,7 +359,7 @@
   {
     "product_id": "P022",
     "product_title": "GoPro HERO11 Black",
-    "product_image": "https://example.com/gopro11.jpg",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/camera/action-camera/gopro/hero11/hero11-01-500x500.webp",
     "category": "Cameras",
     "price": 499,
     "description": "Action camera with 5.3K video.",
