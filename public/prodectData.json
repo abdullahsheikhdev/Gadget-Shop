@@ -274,7 +274,7 @@
   {
     "product_id": "P017",
     "product_title": "Xbox Series X",
-    "product_image": "https://example.com/xboxseriesx.jpg",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Xbox-Series-X-Console-b-4113.jpg",
     "category": "Gaming",
     "price": 499,
     "description": "Most powerful Xbox with 4K gaming.",
@@ -291,7 +291,7 @@
   {
     "product_id": "P018",
     "product_title": "SteelSeries Arctis Pro",
-    "product_image": "https://example.com/steelseries.jpg",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/headphone/steelseries/arctis-pro-gamedac/arctis-pro-gamedac-1-500x500.jpg",
     "category": "Gaming",
     "price": 179,
     "description": "High-fidelity gaming headset with DAC.",
