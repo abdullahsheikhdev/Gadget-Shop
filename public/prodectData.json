@@ -376,7 +376,7 @@
   {
     "product_id": "P023",
     "product_title": "Sony A7 IV",
-    "product_image": "https://example.com/sonya7iv.jpg",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/camera/mirriorless/sony/a7-iv-33mp/a7-iv-33mp-01-500x500.webp",
     "category": "Cameras",
     "price": 2499,
     "description": "Full-frame mirrorless hybrid camera.",
@@ -393,7 +393,7 @@
   {
     "product_id": "P024",
     "product_title": "Fujifilm X-T5",
-    "product_image": "https://example.com/fujifilmxt5.jpg",
+    "product_image": "https://www.startech.com.bd/image/cache/catalog/camera/mirriorless/fujifilm/x-t5-with-lens/x-t50-with-lens-01-500x500.webp",
     "category": "Cameras",
     "price": 1699,
     "description": "Compact mirrorless with 40MP sensor.",
