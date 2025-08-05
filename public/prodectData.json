@@ -512,7 +512,7 @@
   {
     "product_id": "P031",
     "product_title": "Amazon Echo Dot (5th Gen)",
-    "product_image": "https://example.com/echodot.jpg",
+    "product_image": "https://adminapi.applegadgetsbd.com/storage/media/large/Amazon-Echo-Dot-Kids-(5th-Gen)-Owl-Up-1950.jpg",
     "category": "Smart Home",
     "price": 49,
     "description": "Compact smart speaker with Alexa.",
@@ -529,7 +529,7 @@
   {
     "product_id": "P032",
     "product_title": "Ring Video Doorbell Pro 2",
-    "product_image": "https://example.com/ringdoorbell.jpg",
+    "product_image": "https://images.ctfassets.net/a3peezndovsu/product-24723346063449-media/4824165ef4cdce3966cb22cddc24c59e/product-24723346063449-media.jpg",
     "category": "Smart Home",
     "price": 249,
     "description": "Advanced video doorbell with 3D motion.",
